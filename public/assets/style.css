@@ -1,0 +1,27 @@
+body{
+    background: rgb(255, 0, 0);
+    color: yellow;
+}
+
+img{
+    inline-size: 300px;
+}
+li {
+  padding: 5px;
+  margin: 5px;
+  background: yellow;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background:red;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
