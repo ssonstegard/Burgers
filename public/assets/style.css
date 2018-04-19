@@ -1,15 +1,52 @@
 body{
     background: rgb(255, 0, 0);
     color: yellow;
+    margin: auto;
+}
+/* 
+@font-face {
+  font-family: 'Bobs-Burgers';
+  src:url('Bobs-Burgers.ttf.woff') format('woff'),
+      url('Bobs-Burgers.ttf.svg#Bobs-Burgers') format('svg'),
+      url('Bobs-Burgers.ttf.eot'),
+      url('Bobs-Burgers.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+} */
+
+h1{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#container{
+  background: rgb(255, 0, 0);
+  color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px
+
 }
 
 img{
-    inline-size: 300px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px
 }
 li {
   padding: 5px;
   margin: 5px;
-  background: yellow;
+  background: rgb(240, 108, 108);
 }
 
 .label {
@@ -24,4 +61,11 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+button{background: yellow;
+  color: rgb(255, 0, 0);
+  
+  margin-left: auto;
+  margin-right: auto;
+
 }
