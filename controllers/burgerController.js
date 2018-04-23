@@ -48,31 +48,6 @@ router.put("/api/burgers/:id", function (req, res) {
 
 
 
-///// Rachels Code
-
-// router.put("/api/burgers/:id", function (req, res) {
-//     var condition = "id = " + req.params.id;
-//     console.log("condition", condition);
-// if (req.body.devour ==1){
-//     req.body.devour = 0
-// }
-// else{
-//     req.body.devour = 1
-// };
-//     burger.updateOne("burgers",
-//         req.body.devour,
-//         req.params.id, function (result) {
-//             if (result.changedRows == 0) {
-//                 return res.status(404).end();
-//             }
-//             else {
-//                 res.status(200).end();
-//             }
-//         });
-// });
-
-
-
 // Export routes for server.js to use.
 module.exports = router;
 
